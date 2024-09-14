@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Products Page</title>
+    <link rel="stylesheet" href="style-new.css">
+</head>
+<body>
+    <div class="container">
+        <header style="background-color: #4CAF50;">
+            <a href="index.html"><img src="new-logo.png" alt="New Logo" style="width:100px; height:auto;"></a>
+        </header>
+        <nav class="menu" style="background-color: #333;">
+            <ul>
+                <li><a href="products.html" style="color: white;">Products</a></li>
+                <li><a href="register.html" style="color: white;">Register</a></li>
+                <li><a href="about.html" style="color: white;">About</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search...">
+                <button type="submit" style="background-color: #4CAF50; color: white;">Search</button>
+            </div>
+        </nav>
+        <main>
+            <h1 style="color: #4CAF50;">Products we offer</h1>
+            <p>Explore a wide range of categories:</p>
+            <section>
+                <h2 id="audio">Audio Equipment</h2>
+                <img src="new-audio.jpg" alt="Audio" style="width:300px;">
+            </section>
+            <section>
+                <h2 id="computers">Computers</h2>
+                <img src="new-computers.jpg" alt="Computers" style="width:300px;">
+            </section>
+            <!-- Add more categories as needed -->
+        </main>
+        <aside>
+            <h2 style="color: #4CAF50;">Shopping Cart</h2>
+            <table>
+                <tr>
+                    <td>Item 1</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>Item 2</td>
+                    <td>$500</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$1500</td>
+                </tr>
+            </table>
+            <button type="button" style="background-color: #4CAF50; color: white;">Proceed to Checkout</button>
+        </aside>
+        <footer style="background-color: #333; color: white;">
+            <p>&copy; 2024 Your Name, All rights reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
